@@ -1,0 +1,23 @@
+.Header {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  height: 120px;
+
+  &__Content {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &__Breadcrumbs {
+    align-self: flex-start;
+    margin-top: 2rem;
+    margin-left: 5rem;
+  }
+}
